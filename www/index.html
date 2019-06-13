@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+<head>
+    <!--
+    Customize this policy to fit your own app's needs. For more guidance, see:
+        https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+    Some notes:
+        * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+        * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+        * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+            * Enable inline JS: add 'unsafe-inline' to default-src
+    -->
+    <meta http-equiv="Content-Security-Policy"
+          content="style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-4.3.1-dist/css/bootstrap.css">
+    <title>Keuzedelen App</title>
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.sidebar.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script>
+
+    </script>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="sidebars">
+        <div class="sidebar right">
+            <p id="close" data-action="close" data-side="right">Close</p>
+            <p id="HomeNav">Home</p>
+            <p id="BranchNav">Branches</p>
+    </div>
+    </div>
+    <div id="header" class="row">
+        <div class="col-3 text-center">
+
+        </div>
+        <div class="col-6 text-center">
+            <img class="img-fluid" alt="Responsive image" src="img/logo.png">
+        </div>
+        <div class="col-3 text-center">
+            <h2 style="color: white;" id="menu" data-action="open" data-side="right" class="h2">Menu</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <p class="HeaderInfo">Wat zijn keuzedelen?</p>
+            <p class="contentInfo">De keuzedelen zijn vanaf 1 augustus 2016 een verplicht onderdeel van elke mbo-opleiding (behalve voor de opleiding die eerder zijn begonnen). Je totale opleiding bestaat uit een basisdeel, een profieldeel en een keuzedeel of keuzedelen. Pas als je alle delen hebt afgerond (je moet meedoen aan het keuzedeel of de keuzedelen, maar je hoeft geen voldoende te halen), kan je een diploma halen. Een mbo-opleiding bestaat ongeveer voor 1/5 uit keuzedelen. Het doel van keuzedelen is dat je zelf meer keuzevrijheid hebt tijdens je opleiding, waardoor je je bijvoorbeeld kan specialiseren, makkelijk kan doorstromen of vakgebieden kan combineren.</p>
+        </div>
+        <div class="col-1"></div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <p class="HeaderInfo">Uit welk aanbod kan ik kiezen?</p>
+            <p class="contentInfo">De opleiding bepaalt het aanbod van de keuzedelen en maakt deze kenbaar. Op de website vind je bij AANBOD bij jouw opleiding terug uit welke keuzedelen je kan kiezen. Soms worden keuzedelen
+
+                opleiding overstijgend georganiseerd. Dat betekent dat je dan met studenten van andere
+
+                opleidingen een keuzedeel kunt volgen. Samen met je mentor bepaal je welke keuzedelen voor jou
+
+                geschikt zijn. Het kan voorkomen dat jouw opleiding heeft gekozen voor een configuratie. Dit wil
+
+                zeggen dat er sprake is van het verplicht moeten kiezen van een bepaalde combinatie aan
+
+                keuzedelen. Het kan ook voorkomen dat de opleiding zelf een beperkte keuze heeft gemaakt waarbij
+
+                je slechts 1 keuzedeel van het totaal te volgen keuzedelen kunt kiezen.
+
+                Let op: je mag ook een verzoek indienen voor het volgen van een niet gekoppeld keuzedeel. De
+
+                opleiding en de examencommissie overleggen dan of het haalbaar is en je verzoek toegestaan kan
+
+                worden. Hiervoor moet je een aanvraag indienen. Meer informatie hierover kun je opvragen bij het
+
+                Examenbureau in Vlissingen of door te mailen naar examenbureauvlissingen@scalda.n</p>
+        </div>
+        <div class="col-1"></div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <p class="HeaderInfo">Hoeveel keuzedelen moet ik volgen?</p>
+            <p class="contentInfo">Het aantal keuzedelen dat je moet volgen is afhankelijk van de soort opleiding die je volgt en van de
+
+                omvang van het keuzedeel dat je wilt volgen. In onderstaande tabel zie je de omvang van de
+
+                keuzedeelverplichting per opleidingssoort. De meeste keuzedelen zijn 240 klokuur. Voor een niveau
+
+                2 opleiding betekent het dat je dan 2 keuzedelen moet volgen of 1 groot keuzedeel van 480. Bij een
+
+                niveau 3 of een driejarige niveau 4 opleiding zijn dat 3 keuzedelen of 1 van 240 en 1 van 480. Bij de
+
+                informatie over het aanbod staat vermeld hoe groot de omvang is van het betreffende keuzedeel.
+            </p>
+            <p class="contentInfo">
+                Let op: Je mag altijd meer keuzedelen volgen dan wat er minimaal verplicht is. Bespreek dit in
+
+                overleg met de mentor.
+                Let op: Bij doorstroom naar een vervolgopleiding binnen het MBO (voorbeeld van niveau 2 naar niveau 3 of van niveau 3 naar niveau 4) geldt opnieuw de keuzedeelverplichting. Dit betekent dat als je plannen hebt om door te stromen naar een vervolgopleiding in overleg met de mentor kijkt welke keuzedelen voor jou interessant zijn. Je kunt dan namelijk bij doorstroom naar de vervolgopleiding keuzedelen vrijstelling aanvragen in de vervolgopleiding.</p>
+        </div>
+        <div class="col-1"></div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <p class="HeaderInfo">Keuzedelen en examinering</p>
+            <p class="contentInfo">Het is verplicht om een keuzedeel af te ronden met een examen. Het resultaat telt voorlopig nog
+
+                niet mee voor diplomering. Als je resultaat voldoende is, worden de keuzedelen met het resultaat
+
+                vermeldt op het diploma. Als je resultaat niet voldoende is, dan staat het resultaat van het gevolgde
+
+                keuzedeel enkel op de bijhorende cijferlijst bij het diploma.
+
+                Het examen kan verschillen per keuzedeel. Soms is sprake van een specifiek theoretisch examen en
+
+                soms in combinatie met een praktijkexamen dat op een bepaald moment en tijdstip afgelegd moet
+
+                worden. Het kan ook voorkomen dat je gedurende een langere periode bewijzen verzamelt waaruit
+
+                blijkt dat je het keuzedeel beheerst (proeve van bekwaamheid)
+            </p>
+        </div>
+        <div class="col-1"></div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <p class="HeaderInfo">Keuzedelen en vrijstellingen</p>
+            <p class="contentInfo">Wanneer je doorstroomt naar een vervolgopleiding of je gaat een andere opleiding volgen dan geldt
+
+                opnieuw de landelijk gestelde keuzedeelverplichting voor de nieuwe opleiding. (zie: Hoeveel
+
+                keuzedelen moet ik volgen) Je kunt vrijstellingen krijgen voor 1 of meerdere keuzedelen.
+
+                Vrijstellingen worden altijd aangevraagd via het Examenbureau. De Examencommissie kijkt na of je
+
+                in aanmerking komt voor vrijstelling waarna de examencommissie een beslissing neemt. Als je
+
+                resultaat voldoende was voor een gevolgd keuzedeel in een vorige opleiding en het keuzedeel
+
+                gekoppeld is aan de huidige opleiding, dan kom je in aanmerking. Als je resultaat onvoldoende was
+
+                voor een keuzedeel in je vorige opleiding, kan de Examencommissie beslissen dat je toch vrijgesteld
+
+                wordt van deelname aan een keuzedeel. Je wordt dan vrijgesteld voor een deel van de
+
+                keuzedeelverplichting.
+            </p>
+            <p class="contentInfo">
+                Je kunt een aanvraagformulier vrijstellingen ophalen bij het Examenbureau in Vlissingen of door te
+                mailen naar examenbureauvlissingen@scalda.nl</p>
+        </div>
+        <div class="col-1"></div>
+    </div>
+</div>
+
+</body>
+</html>

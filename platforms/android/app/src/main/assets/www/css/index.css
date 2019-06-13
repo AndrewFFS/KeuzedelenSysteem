@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'bebasneu';
+    src: url('../font/bebasneue-regular-webfont.woff2') format('woff2'),
+    url('../font/bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'bebasneu';
+}
+#header{
+    background-image: url("../img/Stenen.png");
+}
+
+.h2{
+    margin-top: 33%;
+
+}
+.HeaderInfo{
+    font-size: 27pt;
+}
+.contentInfo{
+    font-size: 14pt;
+}
+.sidebar{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 15rem;
+    background-image: url("../img/Stenen.png");
+    z-index: 10;
+}
+.sidebars > .sidebar {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.64);
+    position: fixed;
+    color: white;
+    padding: 30px;
+    font-size: 2em;
+    text-align: center;
+    z-index: 10;
+}
+#close{
+    border-bottom: 2px solid white;
+}
+.branchClass{
+    font-size: 14pt;
+    padding: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
